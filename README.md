@@ -2,6 +2,8 @@
 
 Python-based energy data analysis portfolio project using Our World in Data (OWID) datasets to explore long-run energy transitions across OECD, Non-OECD, Canada, the world, and selected peer countries.
 
+- OECD = Organisation for Economic Co-operation and Development; Non-OECD = countries outside the OECD grouping used in this project
+
 ## Project Overview
 This project analyzes how energy systems have evolved over time using Python, pandas, and matplotlib. The work focuses on primary energy demand, per-capita energy use, electricity mix transitions, carbon intensity, and cross-country comparisons to identify which energy sources appear to be gaining momentum and which are losing share.
 
@@ -24,6 +26,8 @@ This project analyzes how energy systems have evolved over time using Python, pa
 - Some comparisons were restricted to periods with more stable data coverage.
 - Where visible structural jumps likely reflect reporting or coverage shifts rather than real one-year changes, this is noted explicitly in the analysis.
 - CO2 per capita data was included to strengthen the peer-country comparison section.
+- OECD and Non-OECD were created as analytical groupings from country-level data to compare broad energy trends across advanced-economy and non-advanced-economy contexts; these were not pre-defined group labels in the original dataset.
+
 
 ## Key Findings
 - Non-OECD total primary energy demand rises much more strongly over time than OECD demand.
